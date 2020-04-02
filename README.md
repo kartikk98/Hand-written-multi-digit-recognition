@@ -1,1 +1,5 @@
 # Hand-written-multi-digit-recognition
+
+This project is based on Computer Vision and pattern recognition. In this project a Convolution Neural network (CNN) is trained on MNIST dataset to classify and recognise handwritten digits from an image. The CNN is implemented by using Keras.   
+Model of digit recognition cannot be applied directly onto a real image. Before applying that model onto a real image, we need to preprocess the image. Various preprocessing operations are performed on the image like blurring, thresholding, etc. After the preprocessing of the image of multi-digit handwritten number, it is required to segment the digits from the image and make each digit similar to digits in MNIST dataset before passing the digits through trained CNN model for prediction.  
+All image preprocessing operations and segmentation of digits are performed by using OpenCV-Python library. The target of this project is to open the way to digitalization. Though the goal is to just recognize the digits but it can be extended to letters and then a person’s handwriting.
